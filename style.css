@@ -1,41 +1,98 @@
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f8f9fa;
-    }
+/* General Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+}
 
-    header {
-      background-color: #212529;
-      color: white;
-      padding: 3rem 1rem;
-      text-align: center;
-    }
+/* Header */
+header {
+  background-color: #212529;
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
 
-    section {
-      margin-bottom: 2rem;
-    }
+/* Section Spacing */
+section {
+  margin-bottom: 3rem;
+}
 
-    .skills li {
-      display: inline-block;
-      margin: 5px;
-    }
+/* Skills Section */
+.skills li {
+  display: inline-block;
+  margin: 5px;
+}
 
-    .skills .badge {
-      font-size: 1rem;
-      padding: 0.6em 1em;
-    }
+.skills .badge {
+  font-size: 1rem;
+  padding: 0.6em 1em;
+}
 
-    footer {
-      background-color: #212529;
-      color: #ccc;
-      text-align: center;
-      padding: 1rem 0;
-    }
+/* Projects Section */
+#projects {
+  text-align: center;
+}
 
-    a.btn-link {
-      color: #0d6efd;
-      text-decoration: none;
-    }
+#projects h2 {
+  margin-bottom: 1.5rem;
+}
 
-    a.btn-link:hover {
-      text-decoration: underline;
-    }
+/* Card Layout */
+#projects .card {
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+#projects .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+#projects .card img {
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+/* Responsive Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Buttons */
+.btn-outline-primary {
+  border-radius: 25px;
+  padding: 0.5em 1.2em;
+  transition: all 0.2s ease;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* Contact Section */
+a.btn-link {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  color: #ccc;
+  text-align: center;
+  padding: 1rem 0;
+}
