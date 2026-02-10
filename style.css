@@ -97,10 +97,9 @@ section {
   color: #fff;
 }
 
-/* Contact Section */
-a.btn-link {
-  color: #0d6efd;
-  text-decoration: none;
+a.btn-outline-primary {
+  margin-bottom: 0.9rem;
+  margin-top: 1.0rem;
 }
 
 #contact {
@@ -116,5 +115,5 @@ footer {
   background-color: #0d6efd;
   color: #ccc;
   text-align: center;
-  padding: 1rem 0;
+  padding: 1.5rem 0.4rem;
 }
