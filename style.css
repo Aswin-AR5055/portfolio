@@ -14,15 +14,35 @@ header {
   text-align: center;
 }
 
+#about {
+  text-align: center;
+}
+
 /* Section Spacing */
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 /* Skills Section */
 .skills li {
   display: inline-block;
   margin: 5px;
+}
+
+#skills {
+  text-align: center;
+}
+
+#experience {
+  text-align: center;
+}
+
+#experience ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
 }
 
 .skills .badge {
@@ -53,9 +73,9 @@ section {
 }
 
 #projects .card img {
-  border-radius: 0.5rem;
+  border-radius: 0.7rem;
   margin-top: 1rem;
-  object-fit: cover;
+  object-fit: fill;
   width: 100%;
   height: 200px;
 }
@@ -83,6 +103,10 @@ section {
 a.btn-link {
   color: #0d6efd;
   text-decoration: none;
+}
+
+#contact {
+  text-align: center;
 }
 
 a.btn-link:hover {
